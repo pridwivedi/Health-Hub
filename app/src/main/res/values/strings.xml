@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="todo">TODO</string>
+
+    <!--    Home Page all strings-->
+
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="healthhub_string">HealthHub</string>
+    <string name="your_path_to_wellness_starts_here__string">Your Path to
+        Wellness
+        Starts Here!</string>
+    <string name="first_aid_string">First Aid</string>
+    <string name="mental_wellbeing_string">Mental
+  Wellbeing</string>
+    <string name="reminders_string">Reminders</string>
+    <string name="records_string">Records</string>
+    <string name="locate_assistance_string">Locate assistance</string>
+    <string name="m8_24_png">m8_24_png</string>
+    <string name="rectangle_1">rectangle_1</string>
+    <string name="vector">vector</string>
+    <string name="vector_ek1">vector_ek1</string>
+    <string name="vector_ek2">vector_ek2</string>
+    <string name="vector_ek4">vector_ek4</string>
+    <string name="vector_ek3">vector_ek3</string>
+    <string name="vector_ek6">vector_ek6</string>
+    <string name="vector_ek5">vector_ek2</string>
+    <string name="vector_ek8">vector_ek8</string>
+    <string name="vector_ek7">vector_ek7</string>
+    <string name="vector_ek9">vector_ek9</string>
+    <string name="vector_ek10">vector_ek10</string>
+    <string name="vector_ek11">vector_ek11</string>
+    <string name="vector_ek12">vector_ek12</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <!--    First Aid all strings-->
+
+
+    <string name="app1">Description:\nBody immune response to a substance causing various symptoms.\n\nGuidelines:\n1] Administer antihistamines if available and prescribed.\n\n2] Help the person avoid the allergen if known.\n\n3] If severe symptoms occur, administer epinephrine if available and seek emergency medical attention.\n\n4] Keep the person in a comfortable position and reassure them.</string>
+    <string name="app2">Description:\nConstriction of airways leading to difficulty breathing\n\nGuidelines:\n1] Help the person sit upright and take slow, deep breaths.\n\n2] Use their prescribed inhaler if available.\n\n3] Encourage them to stay calm and avoid panic.\n\n4] Seek emergency medical attention if symptoms worsen.</string>
+    <string name="app3">Description:\nInjury to skin or other tissues caused by heat, chemicals, electricity, or radiation\n\nGuidelines:\n1] Cool the burn with running cold water for at least 10 minutes.\n\n2]Remove clothing or jewelry near the burn (do not peel off anything stuck to the skin).\n\n3] Cover the burn with a sterile non-stick bandage or clean cloth.\n\n4]Avoid applying creams, ointments, or ice directly to the burn. </string>
+    <string name="app4">Description:\nBreak in the skin surface often caused by sharp objects\n\nGuidelines:\n1] Clean the wound with mild soap and water.\n\n2] Gently remove dirt or debris; apply an antiseptic ointment.\n\n3] Cover the wound with a sterile bandage; keep it elevated to reduce swelling.\n\n4] Change the bandage regularly and watch for signs of infection. </string>
+    <string name="app5">Description:\nBlockage of the airway preventing proper breathing\n\nGuidelines:\n1] Encourage the person to cough forcefully to dislodge the object.\n\n2] If coughing is ineffective, perform abdominal thrusts (Heimlich maneuver).\n\n3] Call emergency services if the person is unable to breathe or loses consciousness.\n\n4] Continue efforts until the object is expelled or professional help arrives. </string>
+    <string name="app6">Description:\nLack of fluids in the body, often due to illness or insufficient water intake\n\nGuidelines:\n1] Encourage them to drink small sips of water.\n\n2] Avoid sugary or caffeinated beverages.\n\n3] Provide oral rehydration solutions if available.\n\n4] Seek medical attention for severe dehydration. </string>
+    <string name="app7">Description:\nSubmersion in a liquid resulting in respiratory impairment\n\nGuidelines:\n1] Remove the person from the water immediately.\n\n2] Check for breathing; start CPR if absent.\n\n3] Call emergency services for help.\n\n4] Keep the person in a horizontal position, support their head and neck, and avoid unnecessary movement. </string>
+    <string name="app8">Description:\nInjury caused by electric current passing through the body\n\nGuidelines:\n1] Ensure your safety before approaching the person; do not touch them if wires are still live.\n\n2] Disconnect the power source if possible or use a non-conductive object to move the person away.\n\n3] Call emergency services and provide CPR if the person is not breathing.\n\n4] Keep the person warm and reassure them while waiting for professional help.</string>
+    <string name="app9">Description:\nTemporary loss of consciousness due to lack of blood flow to the brain\n\nGuidelines:\n1] Lay the person down and elevate their legs.\n\n2] Loosen tight clothing and ensure proper ventilation.\n\n3] Check for breathing and provide CPR if necessary.\n\n4] Stay with the person until they fully recover.</string>
+    <string name="app10">Description:\nA break or crack in a bone\n\nGuidelines:\n1] Call emergency services if a suspected fracture is present.\n\n2] Keep the person still and support the injured area to prevent further damage.\n\n3] Do not try to realign the bone; avoid excessive movement of the injured limb.\n\n4] Immobilize the affected limb with a splint, if available, and secure it in place using bandages or cloth.</string>
+    <string name="app11">Description:\nA serious condition resulting from prolonged exposure to high temperatures\n\nGuidelines:\n1] Move the person to a cooler place immediately.\n\n2] Remove excess clothing and apply cool compresses to areas like the neck, armpits, and groin.\n\n3] Encourage the person to drink cool water if conscious; avoid cold beverages.\n\n4] Seek emergency medical attention promptly.</string>
+    <string name="app12">Description:\nBlood flow to part of the heart muscle is blocked\n\nGuidelines:\n1] Call emergency services immediately.\n\n2] Help the person sit down and rest, keeping calm.\n\n3] If the person is prescribed nitroglycerin and has it available, assist them in taking it.\n\n4] Monitor the persons vital signs and provide CPR if necessary.</string>
+    <string name="app13">Description:\nTrauma to the scalp, skull, or brain\n\nGuidelines:\n1] Call emergency services immediately.\n\n2] Keep the person still and prevent them from moving their head.\n\n3] Apply a cold compress to reduce swelling.\n\n4] Monitor for signs of concussion and seek medical attention promptly.</string>
+    <string name="app14">Description:\nReaction to venom injected by insects\n\nGuidelines:\n1] Remove the stinger if applicable using tweezers.\n\n2] Clean the area with soap and water.\n\n3] Apply a cold compress to reduce swelling.\n\n4] Take antihistamines for itching and swelling if needed.</string>
+    <string name="app15">Description:\nIngestion, inhalation, or absorption of a harmful substance\n\nGuidelines:\n1] Call poison control or emergency services immediately.\n\n2] Provide information on the type of poison, amount ingested, age, and weight.\n\n3] If conscious, follow advice from the poison control center; do not induce vomiting.\n\n4] Keep the person calm, monitor vital signs, and seek professional help.</string>
+    <string name="app16">Description:\nInjury caused by a pointed object piercing the skin\n\nGuidelines:\n1] Clean the wound with mild soap and water.\n\n2] Apply an antiseptic ointment and cover the wound with a sterile bandage.\n\n3] Do not attempt to remove deeply embedded objects; seek medical attention.\n\n4] Watch for signs of infection, such as redness, swelling, or discharge.</string>
+    <string name="app17">Description:\nBreak or crack in one of the ribs\n\nGuidelines:\n1] Help the person breathe shallowly to minimize chest movement.\n\n2] Apply a cold compress to the injured area to reduce pain and swelling.\n\n3] Encourage the person to rest and avoid strenuous activities.\n\n4] Seek medical attention to assess the severity of the fracture and receive appropriate pain management.</string>
+    <string name="app18">Description:\nInjury to a ligament (sprain) or muscle/tendon (strain)\n\nGuidelines:\n1] Rest the injured area and avoid putting weight on it.\n\n2] Apply ice to reduce swelling for the first 48 hours.\n\n3] Compress the area with a bandage for support.\n\n4] Elevate the injured limb to reduce swelling.</string>
+    <string name="app19">Description:\nBites from venomous snakes can cause pain, swelling, and other symptoms\n\nGuidelines:\n1] Call emergency services immediately.\n\n2] Keep the bitten limb immobilized and at or below heart level.\n\n3] Clean the bite area, but do not apply ice or a tourniquet.\n\n4] Seek medical attention for antivenom administration.</string>
+    <string name="app20">Description:\nTear or rupture of the Achilles tendon, often due to sudden force or overuse\n\nGuidelines:\n1] Help the person rest and avoid putting weight on the affected leg.\n\n2] Apply ice to the area to reduce swelling.\n\n3] Immobilize the ankle with a splint or brace.\n\n4] Seek medical attention for proper diagnosis and treatment, which may include surgery.</string>
+    <string name="default_message">No Message Available\n</string>
+</resources>
