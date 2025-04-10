@@ -7,10 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-//import android.widget.MultiAutoCompleteTextView;
-//import android.widget.Toast;
-//
-//import com.google.android.material.chip.Chip;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity2 extends AppCompatActivity {
@@ -43,6 +41,9 @@ public class MainActivity2 extends AppCompatActivity {
         Log.d ( "Rectangle2","In sideOnCreate after superInvoke M2");
         setContentView ( R.layout.activity_main2 );
         Log.d ( "Rectangle2","In OnCreate after set Content MainActivit2 ");
+
+
+
         card1=findViewById(R.id.chip1);
         chip2=findViewById(R.id.chip2);
         chip3=findViewById(R.id.chip3);
@@ -68,10 +69,11 @@ public class MainActivity2 extends AppCompatActivity {
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip1.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -79,10 +81,13 @@ public class MainActivity2 extends AppCompatActivity {
         chip2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip2.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+              intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -90,10 +95,12 @@ public class MainActivity2 extends AppCompatActivity {
         chip3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip3.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+               intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -101,10 +108,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip4.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+              intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -112,10 +120,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip5.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+               intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -123,10 +132,12 @@ public class MainActivity2 extends AppCompatActivity {
         chip6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip6.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+
+             Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+               intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -134,10 +145,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip7.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -145,10 +157,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip8.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -156,10 +169,12 @@ public class MainActivity2 extends AppCompatActivity {
         chip9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip9.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -167,10 +182,12 @@ public class MainActivity2 extends AppCompatActivity {
         chip10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip10.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -178,10 +195,12 @@ public class MainActivity2 extends AppCompatActivity {
         chip11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip11.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -189,10 +208,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip12.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -200,10 +220,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip13.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -211,10 +232,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip14.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -222,10 +244,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip15.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -233,10 +256,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip16.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -244,10 +268,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip17.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -255,10 +280,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip18.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -266,10 +292,11 @@ public class MainActivity2 extends AppCompatActivity {
         chip19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip19.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
@@ -277,12 +304,69 @@ public class MainActivity2 extends AppCompatActivity {
         chip20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                CharSequence text=chip20.getText();
-//                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
+                TextView textView = (TextView)  ((CardView) view).getChildAt(0);
+                CharSequence text = textView.getText();
+                Toast.makeText(MainActivity2.this,text, Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-//                intent.putExtra("ans",text);
+                intent.putExtra("ans",text);
                 startActivity(intent);
             }
         });
     }
 }
+
+
+//
+//package com.example.project;
+//
+//import androidx.appcompat.app.AppCompatActivity;
+//import androidx.cardview.widget.CardView;
+//
+//import android.content.Intent;
+//import android.os.Bundle;
+//import android.util.Log;
+//import android.view.View;
+//import android.widget.TextView;
+//import android.widget.Toast;
+//
+//public class MainActivity2 extends AppCompatActivity {
+//    CardView[] cards = new CardView[20]; // Array to hold card references
+//    String[] cardIds = {
+//            "chip1", "chip2", "chip3", "chip4", "chip5", "chip6",
+//            "chip7", "chip8", "chip9", "chip10", "chip11", "chip12",
+//            "chip13", "chip14", "chip15", "chip16", "chip17", "chip18",
+//            "chip19", "chip20" // All IDs for the chips
+//    };
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        Log.d("Rectangle2", "Inside onCreate M2");
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main2);
+//        Log.d("Rectangle2", "After setContentView in MainActivity2");
+//
+//        // Initialize CardView array and set up click listeners
+//        for (int i = 0; i < cards.length; i++) {
+//            int resID = getResources().getIdentifier(cardIds[i], "id", getPackageName());
+//            cards[i] = findViewById(resID);
+//            final int index = i; // Final variable for the click listener
+//
+//            cards[i].setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    // Get the TextView inside the clicked CardView
+//                    TextView textView = (TextView) ((CardView) view).getChildAt(0);
+//                    // Retrieve the text from the TextView
+//                    CharSequence text = textView.getText();
+//                    // Show a Toast with the retrieved text
+//                    Toast.makeText(MainActivity2.this, text, Toast.LENGTH_SHORT).show();
+//
+//                    // Start the next activity and pass the text
+//                    Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
+//                    intent.putExtra("ans", text);
+//                    startActivity(intent);
+//                }
+//            });
+//        }
+//    }
+//}

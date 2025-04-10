@@ -32,9 +32,11 @@
                 android:layout_height="80dp"
                 android:layout_marginLeft="20dp"
                 app:cardBackgroundColor="#d4edf8"
+                android:text="xyz"
                 android:layout_marginTop="30dp">
 
                 <TextView
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"

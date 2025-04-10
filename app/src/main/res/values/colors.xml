@@ -4,6 +4,7 @@
 
     <color name="background">#d4edf8</color>
     <color name="colorPrimary">#00574B</color>
+    <color name="dark_red">#8B0000</color> <!-- Dark red color -->
 
 <!--    Home Page Colors-->
 
@@ -30,5 +31,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+<!--    Record Manager color-->
+
+    <color name="lavender">#8692f7</color>
 
 </resources>

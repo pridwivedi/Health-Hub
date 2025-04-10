@@ -59,4 +59,20 @@
     <string name="app19">Description:\nBites from venomous snakes can cause pain, swelling, and other symptoms\n\nGuidelines:\n1] Call emergency services immediately.\n\n2] Keep the bitten limb immobilized and at or below heart level.\n\n3] Clean the bite area, but do not apply ice or a tourniquet.\n\n4] Seek medical attention for antivenom administration.</string>
     <string name="app20">Description:\nTear or rupture of the Achilles tendon, often due to sudden force or overuse\n\nGuidelines:\n1] Help the person rest and avoid putting weight on the affected leg.\n\n2] Apply ice to the area to reduce swelling.\n\n3] Immobilize the ankle with a splint or brace.\n\n4] Seek medical attention for proper diagnosis and treatment, which may include surgery.</string>
     <string name="default_message">No Message Available\n</string>
+
+
+  <!--  Medicine Reminder -->
+
+  <string name="reminder">Reminder.</string>
+  <string name="about_reminder">This Module is made by Vikas, Geetanjali, Priya and Saket for Final Year Project. This module comprises of features like setting up reminder, repeating it, and dark &amp; light mode support.</string>
+
+  <string-array name="repeat_after">
+    <item>Never</item>
+    <item>1</item>
+    <item>5</item>
+    <item>10</item>
+    <item>30</item>
+  </string-array>
+
+
 </resources>

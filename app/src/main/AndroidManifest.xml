@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,13 +18,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project"
         tools:targetApi="34">
+
+
+        <activity
+            android:name=".Reminder"
+            android:exported="false" />
+        <activity
+            android:name=".ReminderSplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UploadActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UploadActivity" />
+        <activity
+            android:name=".Record_Manager"
+            android:exported="false" />
         <activity
             android:name=".ChatActivity"
             android:exported="false" />
         <activity
             android:name=".Mental_Wellbeing"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".MainActivity3"
             android:exported="false" />
@@ -43,6 +63,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name=".broadcastForReminder"
+            android:exported="true">
+        </receiver>
     </application>
 
 </manifest>

@@ -72,7 +72,7 @@ public class ChatActivity extends AppCompatActivity {
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
         );
-        params.setMargins(8, 8, 8, 8);
+        params.setMargins(8, 10, 8, 10);
         textView.setLayoutParams(params);
 
         chatLayout.addView(textView);

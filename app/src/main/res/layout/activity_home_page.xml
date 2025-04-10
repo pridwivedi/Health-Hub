@@ -135,7 +135,8 @@
                     android:layout_width="136dp"
                     android:layout_height="161dp" />
 
-                <View   android:id="@+id/rectangle_5"
+                <View
+                    android:id="@+id/rectangle_5"
                     android:background="@drawable/rectangle_5_shape"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="482dp"

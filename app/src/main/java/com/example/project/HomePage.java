@@ -58,14 +58,14 @@ View view;
 
         // Reminder Module
 
-//        view =(View) findViewById(R.id.rectangle_4);
-//        view.setOnClickListener ( new View.OnClickListener ( ) {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent=new Intent ( HomePage.this, Reminder.class );
-//                startActivity ( intent );
-//            }
-//        } );
+        view =(View) findViewById(R.id.rectangle_4);
+        view.setOnClickListener ( new View.OnClickListener ( ) {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent ( HomePage.this, ReminderSplashScreen.class );
+                startActivity ( intent );
+            }
+        } );
 
 
 
@@ -73,26 +73,26 @@ View view;
 
         //Record Manager Module
 
-//        view =(View) findViewById(R.id.rectangle_5);
-//        view.setOnClickListener ( new View.OnClickListener ( ) {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent=new Intent ( HomePage.this, RecordManager.class );
-//                startActivity ( intent );
-//                finish ();
-//            }
-//        } );
+        view =(View) findViewById(R.id.rectangle_5);
+        view.setOnClickListener ( new View.OnClickListener ( ) {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent ( HomePage.this, Record_Manager.class );
+                startActivity ( intent );
+                finish ();
+            }
+        } );
 
 
 
 
-        // SoS Module
+        // Map Module
 
 //        view =(View) findViewById(R.id.rectangle_6);
 //        view.setOnClickListener ( new View.OnClickListener ( ) {
 //            @Override
 //            public void onClick(View v) {
-//                Intent intent=new Intent ( HomePage.this, Sos.class );
+//                Intent intent=new Intent ( HomePage.this, Map.class );
 //                startActivity ( intent );
 //            }
 //        } );

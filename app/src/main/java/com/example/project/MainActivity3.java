@@ -22,8 +22,6 @@ public class MainActivity3 extends AppCompatActivity {
             // Display the received string for debugging purposes
             t.setText(tex);
 
-            // Remove any leading/trailing spaces to avoid mismatches
-            tex = tex.trim();
 
             String message;
             switch (tex) {
@@ -92,8 +90,6 @@ public class MainActivity3 extends AppCompatActivity {
                     break;
             }
             t1.setText(message);
-        } else {
-            t.setText("No message available");
         }
     }
 }
